@@ -1,0 +1,68 @@
+Student,Event1,Event1 Rank,Event2, Event2 Rank, Event3, Event3 Rank, Event4, Event4Rank, Event5, Event5Rank
+StudentA,Quantum Quandaries,2,Astronomy,14,Circuit Lab,7,Codebusters,11
+StudentB,Forensics,9,Anatomy and Physiology,21
+StudentC,Boomilever,1,Astronomy,12,Codebusters,18
+StudentD,Chemistry Lab,8,Disease Detectives,25,Designer Genes,22
+StudentF,Rocks and Minerals,6,Material Science,6,Dynamic Planet,13,Chemistry Lab,17
+StudentG,Anatomy and Physiology,5
+StudentH,Boomilever,3,Forensics,16,Designer Genes,10
+StudentJ,Water Quality,4,Designer Genes,9
+StudentK,Astronomy,11,Circuit Lab,19
+StudentL,Electric Vehicle,7,Anatomy and Physiology,15,Disease Detectives,20
+StudentM,Quantum Quandaries,10,Designer Genes,13,Anatomy and Physiology,29
+StudentN,Boomilever,12,Material Science,8,Forensics,14,Chemistry Lab,16
+StudentO,Boomilever,4,Material Science,17,Circuit Lab,21,Astronomy,23
+StudentP,Quantum Quandaries,9,Astronomy,10
+StudentQ,Circuit Lab,2,Sustainable Energy,5,Water Quality,24,Designer Genes,26
+
+Event,Number of Students,Block,Type
+Anatomy and Physiology,2,Block 2,Knowledge
+Astronomy,2,Block 1,Knowledge
+Boomilever,2,No Conflict,Build
+Bungee Drop,2,No Conflict,Build
+Chemistry Lab,2,Block 3,Lab+Knowledge
+Circuit Lab,2,Block 6,Lab+Knowledge
+Codebusters,3,No Conflict,Knowledge
+Designer Genes,2,Block 5,Knowledge
+Disease Detectives,2,Block 4,Knowledge
+Dynamic Planet,2,Block 6,Knowledge
+Electric Vehicle,2,No Conflict,Build
+Engineering CAD,2,Block 2,Lab
+Entomology,2,Block 1,Knowledge
+Experimental Design,3,Block 1,Lab
+Forensics,2,Block 2,Lab
+Hovercraft,2,No Conflict,Build
+Helicopter,2,No Conflict,Build
+Machines,2,Block 3,Knowledge+Build
+Material Science,2,Block 5,Knowledge+Lab
+Quantum Quandaries,2,No Conflict,Knowledge
+Remote Sensing,2,Block 4,Knowledge
+Robot Tour,2,No Conflict,Build
+Rocks and Minerals,2,Block 5,Knowledge
+Sustainable Energy,2,No Conflict,Build+Knowledge
+Water Quality,2,Block 6,Lab+Knowledge
+
+Rules
+Mandatory
+Student,Event
+
+
+Banned
+Student,Event
+
+
+Student,Student
+
+
+Similar Events
+Rocks and Minerals,Dynamic Planet
+Astronomy,Remote Sensing
+Anatomy and Physiology,Disease Detectives,Designer Genes
+Electric Vehicle,Sustainable Energy,Circuit Lab
+Chemistry Lab,Forensics,Material Science
+Engineering CAD
+Codebusters
+Water Quality,Entomology
+Experimental Design
+Helicopter,Hovercraft,Boomilever,Machines
+Quantum Quandaries
