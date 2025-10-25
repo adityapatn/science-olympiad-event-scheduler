@@ -29,4 +29,4 @@ Notes and tips:
   - Configurable Rules: optional Mandatory and Banned subsections that the scheduler will follow (keep students apart, lock in an assignment).
   - Similar Events: groups of related events that the scheduler uses as last-priority for event assignment.
 
-Written by Aditya Patnaik 2025
+Original project created by Aditya Patnaik 2025
